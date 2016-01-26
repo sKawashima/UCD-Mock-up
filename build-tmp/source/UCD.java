@@ -194,7 +194,6 @@ public boolean mousePos(float x1, float x2, float y1, float y2){
 }
 
 public int nextStop(int n){
-	println("n: "+n);
 	if(n < 13) return n + 1;
 	else if(n >= 13 && n < 18) return 19 - n;
 	else if(n == 18) return 0;
